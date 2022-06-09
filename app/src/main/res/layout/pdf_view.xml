@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pdf_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:ignore="PxUsage">
+
+    <TextView
+        android:id="@+id/pdf_naslov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="12px"
+        android:layout_marginBottom="3dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:text="@string/biljeska_o_piscu_tekst"
+        android:textColor="#000000"
+        android:textSize="11px" />
+
+    <TextView
+        android:id="@+id/pdf_pisac_biljeska"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textColor="#000000"
+        android:textSize="11px"
+        android:layout_marginBottom="3dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:text="@string/broj_stranica"
+            android:textColor="#000000"
+            android:textSize="11px" />
+
+        <TextView
+            android:id="@+id/pdf_broj_stranica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:textColor="#000000"
+            android:textSize="11px" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:text="@string/knjizevna_vrsta_tekst"
+            android:textColor="#000000"
+            android:textSize="11px" />
+
+        <TextView
+            android:id="@+id/pdf_knjizevna_vrsta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:textColor="#000000"
+            android:textSize="11px" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:text="@string/kratki_sadrzaj_tekst"
+        android:textColor="#000000"
+        android:textSize="11px" />
+
+    <TextView
+        android:id="@+id/pdf_kratki_sadrzaj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textColor="#000000"
+        android:textSize="11px"
+        android:layout_marginBottom="3dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:text="@string/tema_djela_tekst"
+        android:textColor="#000000"
+        android:textSize="11px" />
+
+    <TextView
+        android:id="@+id/pdf_tema_djela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textColor="#000000"
+        android:textSize="11px"
+        android:layout_marginBottom="3dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:text="@string/prostor_i_vrijeme_tekst"
+        android:textColor="#000000"
+        android:textSize="11px" />
+
+    <TextView
+        android:id="@+id/pdf_prostor_i_vrijeme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textColor="#000000"
+        android:textSize="11px"
+        android:layout_marginBottom="3dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:text="@string/jezik_i_stil_tekst"
+        android:textColor="#000000"
+        android:textSize="11px" />
+
+    <TextView
+        android:id="@+id/pdf_jezik_i_stil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textColor="#000000"
+        android:textSize="11px"
+        android:layout_marginBottom="3dp"/>
+
+</LinearLayout>

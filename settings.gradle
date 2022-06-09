@@ -1,0 +1,2 @@
+rootProject.name='Dnevnik Citanja'
+include ':app'

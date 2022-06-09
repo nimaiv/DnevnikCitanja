@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="@string/dodaj_citat_tekst"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/dialog_citat"
+        android:inputType="text|textMultiLine"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/citat_tekst"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/dialog_citat_broj_stranice"
+        android:inputType="text"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/broj_stranice_hint"
+        android:autofillHints="" />
+
+</LinearLayout>

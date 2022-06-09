@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:ignore="PxUsage">
+
+    <TextView
+        android:id="@+id/pdf_ime_lik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:textColor="#000000"
+        android:textSize="11px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:text="@string/opis_lika_tekst"
+        android:textColor="#000000"
+        android:textSize="11px" />
+
+    <TextView
+        android:id="@+id/pdf_opis_lika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textColor="#000000"
+        android:textSize="11px" />
+
+
+</LinearLayout>

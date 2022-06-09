@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pdf_citati"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:ignore="PxUsage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="12px"
+        android:layout_marginBottom="3dp"
+        android:text="@string/citati"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pdf_view_citati"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/citat_list_item"/>
+
+</LinearLayout>
+
